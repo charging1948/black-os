@@ -6,8 +6,8 @@ name: black-os
 description: This is my personal OS image.
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/silverblue-main
-image-version: 41 # latest is also supported if you want new updates ASAP
+base-image: ghcr.io/ublue-os/aurora-dx
+image-version: latest # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
@@ -34,11 +34,18 @@ modules:
     system:
       # If no repo information is specified, Flathub will be used by default
       install:
-        - org.mozilla.firefox
-        - org.gnome.Loupe
+        - app.zen_browser.zen
+        - com.logseq.Logseq
       remove:
         - org.gnome.eog
-    user: {} # Also add Flathub user repo, but no user packages
+    user: # Also add Flathub user repo, but no user packages
+      install:
+        - camp.nook.nookdesktop
+        - com.github.libresprite.LibreSprite
+        - com.github.flxzt.rnote
+        - com.boxy_svg.BoxySVG
+        - com.ranfdev.DistroShelf
+        - dev.vencord.Vesktop
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
