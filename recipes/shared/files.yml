@@ -6,3 +6,6 @@ modules:
     files:
       - source: shared
         destination: /
+  - type: script
+    snippets:
+      - "mkdir -p /nix"
