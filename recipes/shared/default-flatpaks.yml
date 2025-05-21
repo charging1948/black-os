@@ -15,6 +15,7 @@ modules:
         - com.github.tchx84.Flatseal
         - com.github.wwmm.easyeffects
         - com.github.xournalpp.xournalpp
+        - com.logseq.Logseq
         - com.obsproject.Studio.Plugin.GStreamerVaapi
         - com.obsproject.Studio.Plugin.Gstreamer
         - com.obsproject.Studio.Plugin.OBSVkCapture
