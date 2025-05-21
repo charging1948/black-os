@@ -1,0 +1,31 @@
+modules:
+  - type: dnf
+    repos:
+      cleanup: true
+      copr:
+        - bieszczaders/kernel-cachyos-addons  
+    install:
+      packages:
+        - scx-scheds    
+    remove:
+      packages:
+        - kernel
+        - kernel-core
+        - kernel-modules
+        - kernel-modules-core
+        - kernel-modules-extra
+
+  - type: script
+    snippets:
+      - 'rm -drf /usr/lib/modules/*'
+
+  - type: script
+    scripts:
+      - base/bazzite.sh
+
+  - type: initramfs
+
+  - type: systemd
+    system:
+      enabled:
+      - scx_loader.service
