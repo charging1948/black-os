@@ -14,7 +14,7 @@ base-image: ghcr.io/ublue-os/aurora-dx-asus
 
 # defines image major version
 # ---
-image-version: stable
+image-version: latest
 
 modules:
   # this includes everything except for image-specific modifications

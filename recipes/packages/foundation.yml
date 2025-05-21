@@ -6,7 +6,7 @@ modules:
       cleanup: true
       copr:
         - agriffis/neovim-nightly
-        - sneexy/zen-browser
+        - scottames/zen-browser
     optfix:
       - zen
     install:
