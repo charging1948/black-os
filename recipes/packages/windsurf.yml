@@ -5,7 +5,7 @@ modules:
     repos:
       cleanup: true
       files:
-        - https://windsurf-stable.codeiumdata.com/wVxQEIWkwPUEAGf3/yum/windsurf.repo
+        - windsurf.repo
       keys:
         - https://windsurf-stable.codeiumdata.com/wVxQEIWkwPUEAGf3/yum/RPM-GPG-KEY-windsurf
     install:
