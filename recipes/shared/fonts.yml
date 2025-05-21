@@ -1,0 +1,19 @@
+---
+# yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
+
+modules:  
+  - type: fonts
+    fonts:
+      nerd-fonts:
+        - NerdFontsSymbolsOnly
+      google-fonts:
+        - Asap
+        - Assistant
+        - DotGothic16
+        - Georama
+        - IBM Plex Sans
+        - Kosugi Maru
+        - Ruda
+        - Ubuntu Sans
+        - Ubuntu Sans Mono
+        - VT323

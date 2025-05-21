@@ -1,0 +1,18 @@
+---
+# yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
+
+# this is a base modules file to build images on top of quay.io/fedora-ostree-desktops/silverblue
+# or quay.io/fedora/fedora-silverblue, since making a brand new base image does not seem to work.
+# images should start with from-file to this module first thing, then followed by image-specific modules
+
+modules:
+  # contains repo files for codium, configs and services that will be shared across images
+  - from-file: shared/files.yml
+
+  - from-file: packages/foundation.yml
+
+  - from-file: shared/default-flatpaks.yml
+
+  - from-file: shared/fonts.yml
+
+  - from-file: shared/systemd.yml

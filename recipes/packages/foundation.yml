@@ -1,0 +1,62 @@
+---
+# yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
+modules:
+  - type: dnf
+    repos:
+      cleanup: true
+      copr:
+        - agriffis/neovim-nightly
+        - sneexy/zen-browser
+    optfix:
+      - zen
+    install:
+      allow-erasing: true
+      install-weak-deps: false
+      packages:
+        - fontconfig-font-replacements
+        - starship
+        - topgrade
+        - zen-browser
+        # CLI Utilities
+        - distrobox
+        - fastfetch
+        - fish
+        - fzf
+        - inxi
+        - just
+        - lm_sensors
+        # Neovim
+        - fd-find
+        - neovim
+        - ripgrep
+        - tree-sitter
+        # audio & codecs
+        - alsa-firmware
+        - celluloid
+        - ffmpegthumbnailer
+        - heif-pixbuf-loader
+        - libcamera-gstreamer
+        - libcamera-tools
+        - libva-utils
+        - pipewire-plugin-vulkan
+        - vulkan-headers
+        # other system
+        - flatpak-spawn
+        - input-remapper
+        - libappindicator
+        - libratbag-ratbagd
+        - openrgb-udev-rules
+        - steam-devices
+        # pretties
+        - adw-gtk3-theme
+        - deepin-sound-theme
+        - fonts-tweak-tool
+        - oxygen-sounds
+        - pop-sound-theme
+        - yaru-sound-theme
+
+    remove:
+      packages:
+        - firefox
+        - firefox-langpacks
+

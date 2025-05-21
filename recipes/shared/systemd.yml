@@ -1,0 +1,16 @@
+---
+# yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
+
+modules:
+  - type: systemd
+    system:
+      disabled:
+        - NetworkManager-wait-online.service
+        - flatpak-add-fedora-repos.service
+        - flatpak-system-update.timer
+        - flatpak-system-update.service
+        - flatpak-user-update.timer
+        - flatpak-user-update.service
+    user:
+      enabled:
+        - topgrade.timer
