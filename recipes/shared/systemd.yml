@@ -4,6 +4,8 @@
 modules:
   - type: systemd
     system:
+      enabled:
+        - podman.socket
       disabled:
         - NetworkManager-wait-online.service
         - flatpak-add-fedora-repos.service
