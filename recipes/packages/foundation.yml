@@ -5,6 +5,7 @@ modules:
     repos:
       cleanup: true
       copr:
+        - lilay/topgrade
         - tigro/better_fonts
         - agriffis/neovim-nightly
         - scottames/zen-browser
