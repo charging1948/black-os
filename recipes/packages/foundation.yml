@@ -30,23 +30,6 @@ modules:
         - neovim
         - ripgrep
         - tree-sitter
-        # audio & codecs
-        - alsa-firmware
-        - celluloid
-        - ffmpegthumbnailer
-        - heif-pixbuf-loader
-        - libcamera-gstreamer
-        - libcamera-tools
-        - libva-utils
-        - pipewire-plugin-vulkan
-        - vulkan-headers
-        # other system
-        - flatpak-spawn
-        - input-remapper
-        - libappindicator
-        - libratbag-ratbagd
-        - openrgb-udev-rules
-        - steam-devices
         # pretties
         - adw-gtk3-theme
         - deepin-sound-theme
@@ -55,8 +38,8 @@ modules:
         - pop-sound-theme
         - yaru-sound-theme
 
-    remove:
-      packages:
-        - firefox
-        - firefox-langpacks
+    # remove:
+    #   packages:
+    #     - firefox
+    #     - firefox-langpacks
 
