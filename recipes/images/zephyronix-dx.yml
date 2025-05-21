@@ -23,9 +23,9 @@ modules:
   
   # installs Cosign
   # ---
-  - type: script
-    scripts:
-      - cosign.sh
+  # - type: script
+  #   scripts:
+  #     - "shared/cosign.sh"
   
   # kernel selection
   # select ONE of the following from-file line

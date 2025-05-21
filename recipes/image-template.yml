@@ -28,7 +28,7 @@ modules:
   # - type: script
     # scripts:
       # not needed when using quay.io/fedora-ostree-desktops/silverblue
-      # - cosign.sh
+      # - "shared/cosign.sh"
   
   # kernel selection
   # select ONE of the following from-file line
