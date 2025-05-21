@@ -20,6 +20,9 @@ modules:
   # this includes everything except for image-specific modifications
   # ---
   - from-file: shared/base.yml
+
+  - from-file: shared/podman.yml
+
   
   # installs Cosign
   # ---
