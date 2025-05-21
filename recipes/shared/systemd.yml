@@ -13,6 +13,6 @@ modules:
         - flatpak-system-update.service
         - flatpak-user-update.timer
         - flatpak-user-update.service
-    user:
-      enabled:
-        - topgrade.timer
+    # user:
+    #   enabled:
+    #     - topgrade.timer
