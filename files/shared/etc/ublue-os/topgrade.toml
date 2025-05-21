@@ -1,0 +1,2 @@
+[misc]
+disable = ["nix", "home_manager", "node", "yarn", "pnpm"]
