@@ -1,11 +1,13 @@
 ---
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
-type: dnf
-repos:
-  cleanup: true
-  files:
-    - https://windsurf-stable.codeiumdata.com/wVxQEIWkwPUEAGf3/yum/windsurf.repo
-  keys:
-    - https://windsurf-stable.codeiumdata.com/wVxQEIWkwPUEAGf3/yum/RPM-GPG-KEY-windsurf
-install:
-  - windsurf
+modules:
+  - type: dnf
+    repos:
+      cleanup: true
+      files:
+        - https://windsurf-stable.codeiumdata.com/wVxQEIWkwPUEAGf3/yum/windsurf.repo
+      keys:
+        - https://windsurf-stable.codeiumdata.com/wVxQEIWkwPUEAGf3/yum/RPM-GPG-KEY-windsurf
+    install:
+      packages: 
+        - windsurf

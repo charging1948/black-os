@@ -3,7 +3,8 @@
 modules:
   - type: dnf
     install:
-      - podman-docker
-      - podman-compose
-      - podman-tui
-      - podlet
+      packages:
+        - podman-docker
+        - podman-compose
+        - podman-tui
+        - podlet

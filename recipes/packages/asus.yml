@@ -7,9 +7,10 @@ modules:
       copr:
         - lukenukem/asus-linux
     install:
-      - asusctl
-      - supergfxctl
-      - asusctl-rog-gui
+      packages:
+        - asusctl
+        - supergfxctl
+        - asusctl-rog-gui
   - type: systemd
     system:
       enabled:
