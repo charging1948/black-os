@@ -27,7 +27,9 @@ jobs:
       matrix:
         recipe:
           # !! Add your recipes here
-          - recipe.yml
+          # - recipe.yml
+          - "recipes/images/zephyronix-dx.yml"
+          - "recipes/images/protean.yml"
     steps:
       # the build is fully handled by the reusable github action
       - name: Build Custom Image
