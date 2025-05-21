@@ -5,8 +5,10 @@ modules:
     repos:
       cleanup: true
       copr:
+        - tigro/better_fonts
         - agriffis/neovim-nightly
         - scottames/zen-browser
+        - chronoscrat/starship
     optfix:
       - zen
     install:
@@ -14,6 +16,7 @@ modules:
       install-weak-deps: false
       packages:
         - fontconfig-font-replacements
+        - fontconfig-enhanced-defaults
         - starship
         - topgrade
         - zen-browser
