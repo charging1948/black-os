@@ -1,0 +1,16 @@
+---
+# yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
+modules:
+  - type: dnf
+    repos:
+      cleanup: true
+      copr:
+        - lukenukem/asus-linux
+    install:
+      - asusctl
+      - supergfxctl
+      - asusctl-rog-gui
+  - type: systemd
+    system:
+      enabled:
+        - supergfxd.service
