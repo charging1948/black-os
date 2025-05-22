@@ -32,7 +32,7 @@ modules:
   # or leave all three uncommented to use kernel of base-image
   # ---
   # - from-file: kernels/blu.yml 
-  # - from-file: kernels/cachy.yml
+  - from-file: kernels/cachy.yml
   # - from-file: kernels/bazzite.yml
 
   # image-specific packages module
