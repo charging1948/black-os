@@ -5,18 +5,19 @@ modules:
   - type: fonts
     fonts:
       nerd-fonts:
-        - BlexMono
         - FiraCode
+        - IBMPlexMono
         - NerdFontsSymbolsOnly
-        - UbuntuSans
         - UbuntuMono
+        - UbuntuSans
       google-fonts:
         - Asap
         - Assistant
         - DotGothic16
         - Georama
         - IBM Plex Sans
-        - Montserrat
         - Kosugi Maru
+        - Montserrat
+        - Roboto
         - Ruda
         - VT323
