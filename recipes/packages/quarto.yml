@@ -1,0 +1,11 @@
+---
+# yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
+modules:
+  - type: dnf
+    repos:
+      cleanup: true
+      copr:
+        - iucar/rstudio
+    install:
+      packages: 
+        - quarto
