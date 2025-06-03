@@ -9,12 +9,12 @@ description: Custom-built image based on aurora-dx.
 
 # defines base image
 # ---
-base-image: ghcr.io/ublue-os/aurora-dx-hwe
+base-image: ghcr.io/ublue-os/aurora-dx-asus
 # base-image: quay.io/fedora/fedora-silverblue # needs Cosign.sh
 
 # defines image major version
 # ---
-image-version: latest
+image-version: 42
 
 modules:
   # this includes everything except for image-specific modifications
