@@ -44,6 +44,8 @@ modules:
   - from-file: shared/dev.yml
 
   - from-file: packages/asus.yml
+  - from-file: packages/quarto.yml
+  - from-file: packages/hyprland.yml
 
   # disables all repos except for fedora and fedora-updates
   # - from-file: disable-repos.yml
