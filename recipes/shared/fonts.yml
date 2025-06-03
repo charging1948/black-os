@@ -5,11 +5,17 @@ modules:
   - type: fonts
     fonts:
       nerd-fonts:
+        - 3270
+        - CascadiaCode
+        - DepartureMono
         - FiraCode
+        - Gohu
+        - Hermit
         - IBMPlexMono
         - NerdFontsSymbolsOnly
         - UbuntuMono
         - UbuntuSans
+        - Terminus
       google-fonts:
         - Asap
         - Assistant
