@@ -4,7 +4,13 @@ modules:
   - type: dnf
     install:
       packages:
-        - podman-docker
         - podman-compose
         - podman-tui
         - podlet
+  - type: systemd
+    system:
+      enabled:
+        - podman.socket
+    user:
+      enabled:
+        - podman.socket
