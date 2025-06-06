@@ -21,9 +21,6 @@ modules:
   # ---
   - from-file: shared/base.yml
 
-  - from-file: shared/podman.yml
-
-  
   # installs Cosign
   # ---
   # - type: script
