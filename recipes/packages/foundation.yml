@@ -9,6 +9,7 @@ modules:
         - tigro/better_fonts
         - agriffis/neovim-nightly
         - scottames/zen-browser
+        - scottames/ghostty
         - chronoscrat/starship
     optfix:
       - zen
@@ -21,6 +22,7 @@ modules:
         - starship
         - topgrade
         - zen-browser
+        - ghostty
         # CLI Utilities
         - distrobox
         - fastfetch
