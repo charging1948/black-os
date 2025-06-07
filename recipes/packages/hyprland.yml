@@ -7,6 +7,7 @@ modules:
       copr:
         - errornointernet/walker
         - solopasha/hyprland
+        - leloubil/wl-clip-persist
     install:
       packages:
         - hyprland
@@ -24,6 +25,8 @@ modules:
         - hyprsysteminfo
         - hyprshot
         - uwsm
+        - wl-clip-persist
+        - cliphist
 
         - gtk4-layer-shell
         - walker
@@ -31,3 +34,9 @@ modules:
     files:
       - source: packages/hyprland
         destination: /
+  - type: systemd
+    user:
+      enabled:
+        - hyprpolkitagent
+        - hyprsunset
+        - hypridle
