@@ -23,6 +23,8 @@ modules:
         - topgrade
         - zen-browser
         - ghostty
+        - meld
+        - aw-watcher
         # CLI Utilities
         - distrobox
         - fastfetch
