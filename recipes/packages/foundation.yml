@@ -24,7 +24,7 @@ modules:
         - zen-browser
         - ghostty
         - meld
-        - awatcher
+        - aw-awatcher
         # CLI Utilities
         - distrobox
         - fastfetch
