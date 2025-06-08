@@ -8,6 +8,7 @@ modules:
         - errornointernet/walker
         - solopasha/hyprland
         - leloubil/wl-clip-persist
+        - tofik/sway
     install:
       packages:
         - hyprland
@@ -27,6 +28,12 @@ modules:
         - uwsm
         - wl-clip-persist
         - cliphist
+
+        - wofi
+        - sway-audio-idle-inhibit
+        - swappy
+        - network-manager-applet
+        - flameshot
 
         - gtk4-layer-shell
         - walker
