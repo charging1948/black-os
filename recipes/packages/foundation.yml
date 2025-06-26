@@ -45,6 +45,11 @@ modules:
         - oxygen-sounds
         - pop-sound-theme
         - yaru-sound-theme
+        # dependencies
+        - gcc14-c++
+        - gcc-c++
+        - gcc
+        - gcc14
 
     # remove:
     #   packages:
