@@ -17,6 +17,7 @@ modules:
       allow-erasing: true
       install-weak-deps: false
       packages:
+        - pam-kwallet
         - fontconfig-font-replacements
         - fontconfig-enhanced-defaults
         - starship
