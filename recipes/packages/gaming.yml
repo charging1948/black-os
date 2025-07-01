@@ -19,7 +19,7 @@ modules:
       packages:
         - gamescope
         - lutris
-        - heroic-games-launcher
+        # - heroic-games-launcher
 
     # remove:
     #   packages:
