@@ -1,0 +1,27 @@
+---
+# yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
+modules:
+  - type: dnf
+    # repos:
+    #   cleanup: true
+    #   copr:
+    #     - lilay/topgrade
+    #     - tigro/better_fonts
+    #     - agriffis/neovim-nightly
+    #     - scottames/zen-browser
+    #     - scottames/ghostty
+    #     - chronoscrat/starship
+    # optfix:
+    #   - zen
+    install:
+      allow-erasing: true
+      install-weak-deps: false
+      packages:
+        - gamescope
+        - lutris
+        - heroic-games-launcher
+
+    # remove:
+    #   packages:
+    #     - firefox
+    #     - firefox-langpacks

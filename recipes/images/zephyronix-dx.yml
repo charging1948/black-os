@@ -46,6 +46,7 @@ modules:
   - from-file: packages/asus.yml
   - from-file: packages/quarto.yml
   - from-file: packages/hyprland.yml
+  - from-file: packages/gaming.yml
 
   # disables all repos except for fedora and fedora-updates
   # - from-file: disable-repos.yml
