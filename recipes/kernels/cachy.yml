@@ -41,3 +41,4 @@ modules:
     system:
       enabled:
       - scx_loader.service
+      - scx.service
