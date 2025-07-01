@@ -32,6 +32,7 @@ modules:
         - wofi
         - sway-audio-idle-inhibit
         - swappy
+        - satty
         - network-manager-applet
         - flameshot
 
