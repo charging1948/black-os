@@ -48,6 +48,8 @@ modules:
   - from-file: packages/hyprland.yml
   - from-file: packages/gaming.yml
 
+  - from-file: packages/displaylink.yml
+
   # disables all repos except for fedora and fedora-updates
   # - from-file: disable-repos.yml
   
