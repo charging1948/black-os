@@ -9,3 +9,5 @@ modules:
     install:
       packages:
         - displaylink
+
+  - type: initramfs
