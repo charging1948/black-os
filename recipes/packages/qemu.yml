@@ -1,0 +1,29 @@
+---
+# yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
+modules:
+  - type: dnf
+    install:
+      packages:
+        # - type:   # Base packages
+        - qemu-user-static
+        - qemu-user-binfmt
+        
+        # Architecture-specific static emulators
+        - qemu-user-static-aarch64    # ARM 64-bit
+        # - qemu-user-static-alpha      # DEC Alpha
+        - qemu-user-static-arm        # ARM 32-bit
+        # - qemu-user-static-cris       # CRIS
+        # - qemu-user-static-hexagon    # Qualcomm Hexagon
+        # - qemu-user-static-hppa       # HP PA-RISC
+        # - qemu-user-static-loongarch64 # LoongArch 64-bit
+        # - qemu-user-static-m68k       # Motorola 68000
+        # - qemu-user-static-microblaze # Xilinx MicroBlaze
+        # - qemu-user-static-mips       # MIPS
+        # - qemu-user-static-or1k       # OpenRISC 1000
+        # - qemu-user-static-ppc        # PowerPC
+        - qemu-user-static-riscv      # RISC-V
+        # - qemu-user-static-s390x      # IBM System/390
+        # - qemu-user-static-sh4        # SuperH SH-4
+        # - qemu-user-static-sparc      # SPARC
+        # - qemu-user-static-x86        # x86 (32-bit)
+        # - qemu-user-static-xtensa     # Tensilica Xtensasystemd
