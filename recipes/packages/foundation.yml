@@ -26,6 +26,7 @@ modules:
         - ghostty
         - meld
         - aw-awatcher
+        - workrave
         # CLI Utilities
         - distrobox
         - fastfetch
