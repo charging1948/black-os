@@ -50,3 +50,4 @@ modules:
         - hyprpolkitagent
         - hyprsunset
         - hypridle
+        - hyprpaper
