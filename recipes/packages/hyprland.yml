@@ -6,6 +6,7 @@ modules:
       cleanup: true
       copr:
         - errornointernet/walker
+        - errornointernet/quickshell
         - solopasha/hyprland
         - leloubil/wl-clip-persist
         - tofik/sway
@@ -38,6 +39,7 @@ modules:
 
         - gtk4-layer-shell
         - walker
+        - quickshell
   - type: files
     files:
       - source: packages/hyprland
