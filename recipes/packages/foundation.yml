@@ -27,6 +27,7 @@ modules:
         - meld
         - aw-awatcher
         - workrave
+        - cava
         # CLI Utilities
         - distrobox
         - fastfetch
