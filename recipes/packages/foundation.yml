@@ -6,6 +6,7 @@ modules:
       cleanup: true
       copr:
         - lilay/topgrade
+        - leloubil/brillo
         - tigro/better_fonts
         - agriffis/neovim-nightly
         - scottames/zen-browser
@@ -28,6 +29,7 @@ modules:
         - aw-awatcher
         - workrave
         - cava
+        - brillo
         # CLI Utilities
         - distrobox
         - fastfetch
