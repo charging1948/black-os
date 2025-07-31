@@ -40,10 +40,12 @@ modules:
         - flameshot
 
         - gtk4-layer-shell
+        - glibc
+        - qt6-qtdeclarative
         - walker
         - aubio
         - libqalculate
-        - quickshell
+        - quickshell-git
   - type: files
     files:
       - source: packages/hyprland
