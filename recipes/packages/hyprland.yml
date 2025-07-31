@@ -39,6 +39,8 @@ modules:
 
         - gtk4-layer-shell
         - walker
+        - aubio
+        - libqalculate
         - quickshell
   - type: files
     files:
