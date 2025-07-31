@@ -29,6 +29,8 @@ modules:
         - uwsm
         - wl-clip-persist
         - cliphist
+        - qt5ct
+        - qt6ct
 
         - wofi
         - sway-audio-idle-inhibit

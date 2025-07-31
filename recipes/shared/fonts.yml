@@ -2,6 +2,10 @@
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
 
 modules:  
+  - type: dnf
+    install:
+      packages:
+        - material-icons-fonts
   - type: fonts
     fonts:
       nerd-fonts:
