@@ -16,3 +16,7 @@ modules:
   - from-file: shared/fonts.yml
 
   - from-file: shared/systemd.yml
+
+  - type: soar
+    additional-repos: true
+    auto-upgrade: true
