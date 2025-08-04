@@ -28,7 +28,7 @@ jobs:
         recipe:
           # !! Add your recipes here
           # - recipe.yml
-          - "images/zephyronix-dx.yml"
+          # - "images/zephyronix-dx.yml"
           - "images/protean.yml"
     steps:
       # the build is fully handled by the reusable github action
