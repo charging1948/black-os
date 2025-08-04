@@ -3,9 +3,3 @@
 modules:
   - from-file: packages/windsurf.yml
   - from-file: packages/podman.yml
-  - type: dnf
-    install:
-      packages:
-        - mise
-      install-weak-deps: true
-      allow-erasing: false
