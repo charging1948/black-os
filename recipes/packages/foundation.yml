@@ -10,8 +10,8 @@ modules:
         - tigro/better_fonts
         - agriffis/neovim-nightly
         - scottames/zen-browser
-        # - scottames/ghostty
-        - alternateved/ghostty
+        - scottames/ghostty
+        # - alternateved/ghostty
         - chronoscrat/starship
     optfix:
       - zen
