@@ -2,6 +2,7 @@
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
 modules:
   - type: dnf
+    no-cache: true
     repos:
       cleanup: true
       files:
