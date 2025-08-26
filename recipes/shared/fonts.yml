@@ -6,6 +6,7 @@ modules:
     install:
       packages:
         - material-icons-fonts
+        - fontawesome-fonts-all
   - type: fonts
     fonts:
       nerd-fonts:
