@@ -5,7 +5,7 @@ modules:
     repos:
       cleanup: true
       copr:
-        - errornointernet/walker
+        - errornointernet/packages
         - errornointernet/quickshell
         - solopasha/hyprland
         - leloubil/wl-clip-persist
