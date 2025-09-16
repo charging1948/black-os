@@ -43,6 +43,7 @@ modules:
         - glibc
         - qt6-qtdeclarative
         - walker
+        - elephant
         - aubio
         - libqalculate
         - quickshell-git
