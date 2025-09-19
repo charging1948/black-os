@@ -4,6 +4,8 @@ modules:
   - type: dnf
     repos:
       cleanup: true
+      files:
+        - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
       copr:
         - errornointernet/packages
         - errornointernet/quickshell
@@ -31,6 +33,7 @@ modules:
         - cliphist
         - qt5ct
         - qt6ct
+        - tailscale
 
         - wofi
         - sway-audio-idle-inhibit
@@ -43,7 +46,7 @@ modules:
         - glibc
         - qt6-qtdeclarative
         - walker
-        - elephant
+        # - elephant
         - aubio
         - libqalculate
         - quickshell-git
