@@ -20,6 +20,7 @@ modules:
         - xdg-desktop-portal-hyprland
         - hyprpicker
         - hyprlock
+        - hyprland-qt-support
         - hypridle
         - hyprland-plugins
         - hyprsunset
