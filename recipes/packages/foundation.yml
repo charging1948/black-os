@@ -7,7 +7,6 @@ modules:
       copr:
         - lilay/topgrade
         - leloubil/brillo
-        - tigro/better_fonts
         - agriffis/neovim-nightly
         - scottames/zen-browser
         - scottames/ghostty
@@ -20,8 +19,6 @@ modules:
       install-weak-deps: false
       packages:
         - pam-kwallet
-        - fontconfig-font-replacements
-        - fontconfig-enhanced-defaults
         - starship
         - topgrade
         - zen-browser
